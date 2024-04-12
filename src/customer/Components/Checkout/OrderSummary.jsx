@@ -41,7 +41,7 @@ const OrderSummary = ({ data }) => {
     // dispatch(createPayment(data));
     placeOrder(data).then((res) => {
       // dispatch(getCartItems());
-      checkoutStripePayemt(cartItems?.cartItems?.cart?.lines)
+      // checkoutStripePayemt(cartItems?.cartItems?.cart?.lines)
       // navigate(`/payment/${res.data.orderId}`);
       // console.log("this is order id ", res.data.orderId);
     });
